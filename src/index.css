@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
