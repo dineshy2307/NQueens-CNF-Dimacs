@@ -1,12 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import './index.css';
+import InputRows from "./inputBoard.js";
+import Statements from './generateStatements.js';
 
-const Title = () => {
-  return <h1>N Queens</h1>
-}
+const App = () => {
+  const [N, setN] = useState();
 
-const root = ReactDOM.createRoot(document.getElementById('title'));
-root.render(
-  <Title  />
-);
+  return (
+    <div className="p-4">
+      <InputRows N={N} setN={setN} />
+      <Statements N={N} />
+    </div>
+  );
+};
+
+const root = createRoot(document.getElementById('input'));
+root.render(<App />);
