@@ -1,11 +1,17 @@
 body {
   margin: 0;
-  background-color: black;
 }
 
 #title {
-  color: white;
   text-align: center;
   font-size: x-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#input {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  
 }
