@@ -1,5 +1,3 @@
-try it out @
-
 Using the DIMACS SAT Solver to solve N-Queens Problem
 
 1. Generate proper CNF format clauses for given input
